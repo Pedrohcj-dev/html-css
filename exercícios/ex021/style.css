@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+   background-color: #e1e2ec67;
+    margin: 0px;
+    
+}
+h1{font-size: 50px;
+    text-align: center;
+
+    background-color:#e1e2ec67;
+
+    width: 500px;
+
+    
+    margin: auto;
+    margin-bottom: 10px;
+
+    border-width: 10px;
+    border-top: #b80909;
+    border-right: black;
+    border-bottom: green;
+    border-left: white;
+    border-style: solid;
+    border-radius: 10px;
+}
+header{
+    text-align: center;
+}
+nav > a{
+    padding-right: 15px;
+}
+a.spfc{
+    color: #e90808;
+}
+a.san{
+    color: black;
+}
+a.pal{
+    color: rgb(8, 179, 8);
+}
+a.cori{
+    color: black;
+}
+section#saopaulo{
+    text-align: justify;
+    text-indent: 10px;
+    background-color: #b80909;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+section#santos{
+    text-indent: 10px;
+    background-color: white;
+    color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+section#palmeiras{
+    text-indent: 10px;
+    background-color: green;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+section#corinthians{
+    text-indent: 10px;
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.clubes{
+    padding: 5px;
+}
+
+footer{
+    background-color: #777881d7;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.493);
+}

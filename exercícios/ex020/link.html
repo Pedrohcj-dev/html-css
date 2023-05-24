@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(127, 255, 212, 0.541);
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        a:visited{
+         /*posso colocar qualquer caracteristica para o site já visitado*/
+        }
+        li.teste1{
+            background-color: darkgray;
+        }
+        a.teste2{
+            background-color: blanchedalmond;
+            color: rgb(206, 18, 18);
+        }
+        a::after{
+            content: '[link]';
+            color: rgb(16, 2, 95);
+        }
+        a::before{
+            content: '[link]';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li class="teste1"><a href="https://github.com/Pedrohcj-dev?tab=repositories" target="_blank">Repositorio github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" target="_blank" class="teste2">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/" target="_blank">Site do curso em vídeo</a></li>
+    </ul>
+
+    
+</body>
+</html>
