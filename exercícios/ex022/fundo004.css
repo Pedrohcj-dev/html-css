@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+   
+    height: 97vh; /*vh é a medida da parte branca da tela*/
+    background-image: url(imagens/pattern001.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: right top;
+}
