@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    height: 0;
+}
+
+
+#container{
+    height: 100vh;
+    background-color: crimson;
+    position: relative;
+    padding: 10px;
+
+}
+
+#conteudo{
+    height: 200px;
+    background-color: aqua;
+    width: 250px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+} 
