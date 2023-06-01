@@ -60,14 +60,33 @@ section > p{
     font-family: var(--fonte3);
     font-size: 50px;
     line-height: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 section.imagem > p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.178);
+    background-color: rgba(0, 0, 0, 0.301);
     padding: 7px;
+    border-radius: 5px;
     
 }
+#imagem1{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
 .normal{
     background-color: white;
     color: black;
